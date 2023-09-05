@@ -1,0 +1,36 @@
+@import "../node_modules/antd/dist/reset.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #00bfa5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__header {
+  color: #fff;
+}
+
+/* Button */
+.button-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  background-color: #fff;
+}
+
+.button-container__add-vehicle   {
+  background-color: #00bfa5;
+  width: 10rem;
+  margin-top: 3rem;
+  margin-right: 2rem;
+  border-radius: 2rem;
+}
+
+/* Table */
